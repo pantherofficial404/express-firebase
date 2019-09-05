@@ -1,0 +1,14 @@
+{
+  "name": "express-firebase",
+  "version": "1.0.2",
+  "description": "It helps to manage your firebase api without worry to much of the code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^6.5.0"
+  }
+}
