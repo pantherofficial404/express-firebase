@@ -33,7 +33,8 @@ expressFirebase.connect(firebaseConfig);
 ## Add Data
 
 ```js
-await expressFirebase.post('/add',{name:'I love express firebase',version:'1.0.0'});
+await expressFirebase.post('/add',
+{name:'I love express firebase',version:'1.0.0'});
 ```
 
 ## Get Data
@@ -45,7 +46,8 @@ const response = await expressFirebase.get('/add');
 ## Update
 
 ```js
-await expressFirebase.put('/add',{name:'I Love Express Firebase Updated',version:'1.0.1'});
+await expressFirebase.put('/add',
+{name:'I Love Express Firebase Updated',version:'1.0.1'});
 ```
 
 ## Delete
@@ -57,5 +59,5 @@ await expressFirebase.delete('/add','xxxxxxxxxxxxxxx');
 ## Upload Image
 
 ```js
-const imageUrl = await expressFirebase.uploadFile('imageName','image data');  //It should be compatible with firebase image upload
+const imageUrl = await expressFirebase.uploadFile('imageName','image data');
 ```
