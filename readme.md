@@ -61,3 +61,52 @@ await expressFirebase.delete('/add','xxxxxxxxxxxxxxx');
 ```js
 const imageUrl = await expressFirebase.uploadFile('imageName','image data');
 ```
+
+## Login
+
+```js
+const response = await expressFirebase.login('abc@gmail.com','password');
+```
+
+## Signup
+
+```js
+const signup = await expressFirebase.signup('abc@gmail.com','password');
+```
+
+## Logout
+
+```js
+const response = await expressFirebase.logout();
+```
+
+## Get Current User
+
+```js
+const response = await expressFirebase.getCurrentUser();
+```
+
+## isLoggedIn
+
+```js 
+const response = await expressFirebase.isLoggedIn();
+```
+
+## Email Verification
+
+```js
+const response = await expressFirebase.sendEmailVerification();
+```
+
+## OAuth - Google
+
+```js
+const response = await expressFirebase.loginWithGoogle();
+```
+
+## OAuth - Github
+
+```js
+const response = await expressFirebase.loginWithGithub();
+```
+
