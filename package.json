@@ -1,13 +1,23 @@
 {
   "name": "express-firebase",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "It helps to manage your firebase api without worry to much of the code",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
+  "author": "pantherofficial404",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pantherofficial404/express-firebase.git"
+  },
+  "keywords": [
+    "Firebase",
+    "Services",
+    "Express"
+  ],
+  "bugs": {
+    "url": "https://github.com/pantherofficial404/express-firebase/issues"
+  },
+  "homepage": "https://github.com/pantherofficial404/express-firebase#readme",
   "dependencies": {
     "firebase": "^6.5.0"
   }
