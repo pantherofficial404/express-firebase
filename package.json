@@ -1,6 +1,6 @@
 {
   "name": "express-firebase",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "It helps to manage your firebase api without worry to much of the code",
   "main": "index.js",
   "author": "pantherofficial404",
