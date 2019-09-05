@@ -1,6 +1,7 @@
 import * as firebase from 'firebase';
 
 class firebaseServices {
+
   isInitialized() {
     return !firebase.app.length;
   }
@@ -18,7 +19,6 @@ class firebaseServices {
     firebase.initializeApp(firebaseConfig);
     this.firestore = firebase.database();
     this.firebaseStorage = firebase.storage();
-    console.log('Connected To Firebase');
   }
 
   async post(path, data) {
