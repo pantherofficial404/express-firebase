@@ -215,6 +215,13 @@ class firebaseServices {
     const user = this.firebaseAuth.currentUser;
     if (user) {
       user.sendEmailVerification();
+      return {
+        code: 200,
+        data: {
+          message: 'Email successfully sent',
+        },
+        success: true,
+      }
     } else {
       return {
         code: 404,
